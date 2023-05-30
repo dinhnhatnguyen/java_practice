@@ -30,7 +30,7 @@ public class nguoiChoi{
 
     @Override
     public String toString() {
-        return String.format("[%s, %s, %s, %d, %d, %d, %d, %d, %d, %d]",HoTen ,Diachi , SoDienThoai ,soVe, soThu1,soThu2,soThu3,soThu4,soThu5,soThu6);
+        return String.format("%s, %s, %s, %d, %d, %d, %d, %d, %d, %d",HoTen ,Diachi , SoDienThoai ,soVe, soThu1,soThu2,soThu3,soThu4,soThu5,soThu6);
     }
 
     boolean Validate(int s1, int s2, int s3, int s4, int s5, int s6) {
